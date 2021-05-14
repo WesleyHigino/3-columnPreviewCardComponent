@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.column{
+    width: 100%;
+    height: 370px;
+    padding: 3rem;
+}
+
+.card-sedans{
+    
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+    
+}
+.card-sedans .button{
+    color: hsl(31, 77%, 52%) ;
+}
+.card-suvs{
+    
+    background-color: hsl(184, 100%, 22%);
+}
+.card-suvs .button{
+    
+    color: hsl(184, 100%, 22%);
+}
+.card-luxury{
+   
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+    
+    
+}
+.card-luxury .button{
+   
+    color: hsl(179, 100%, 13%); 
+}
+.button{
+    margin-top: 70px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.button:hover{
+    background-color: transparent;
+    color: #fff;
+
+}
+
+@media (min-width:680px){
+    main{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+    }
+    
+    .column{
+        width: 150px;
+        height: 450px;
+        padding: 2rem;
+    }
+
+    
+    .card-sedans{
+        border-radius: 10px 0 0 10px;  
+    }
+    .card-luxury{
+        border-radius: 0 10px 10px 0;
+        
+        
+    }
+    .button{
+        margin-top: 40px;
+    }
+}
+@media (min-width:900px){
+    main{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+    }
+    .column{
+        width: 200px;
+        height: 370px;
+        padding: 3rem;
+    }
+    .card-sedans{
+        border-radius: 10px 0 0 10px;  
+    }
+    .card-luxury{
+        border-radius: 0 10px 10px 0;
+        
+        
+    }
+}
+
