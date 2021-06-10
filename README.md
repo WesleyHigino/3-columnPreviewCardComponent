@@ -1,4 +1,5 @@
-# 3-column preview card component
+# 3 column preview card component
+https://card3-column.netlify.app/
 
 ## Sobre o projeto
 
